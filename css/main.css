@@ -32,9 +32,6 @@ header {
     transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
     color: #1c4d85;
 }
-.nav-toggle {
-    display: none;
-}
 .nav__link::before {
     content:"";
     display: block;
