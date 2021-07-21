@@ -30,7 +30,7 @@ header {
     margin: 0 12px;
     font-weight: 700;
     transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
-    color: #1C1711;
+    color: #1c4d85;
 }
 .nav-toggle {
     display: none;
@@ -43,13 +43,13 @@ header {
     left: 0;
     height: 3px;
     width: 100%;
-    background-color: #1C1711;
+    background-color: #1c4d85;
     transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s, transform 0.2s ease-out;
 }
 .nav__link:active::before {
-    background-color: #1C1711;
+    background-color: #1c4d85;
 }
 .nav__link:hover::before,
 .nav__link:focus::before {
@@ -61,7 +61,7 @@ header {
     text-align: center;
     display: flex;
     align-items: center;
-    color: #1C1711;
+    color: #1c4d85;
     text-transform: uppercase;
     width: 25rem;
     font-family: "Raleway", sans-serif;
@@ -72,7 +72,7 @@ header {
 }
 a {
     text-decoration: none;
-    color: #1C1711;
+    color: #1c4d85;
 }
 @media (max-width: 800px) {
     .nav {
@@ -97,7 +97,7 @@ a {
         text-align: center;
         margin: 0;
         padding: 135px;
-        background-color: #1C1711;
+        background-color: #1c4d85;
         width: 100%;
     }
 }
